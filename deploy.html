@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fresh Baked Cafe</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Merienda', cursive;
+        }
+        header div{
+            display: flex;
+            /* background-color: orange; */
+            background: radial-gradient(yellow, orange);
+            color: black;
+            font-weight: 1500;
+            padding: 2vh;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        main .main{
+            width: 100%;
+        }
+        .nav-bar{
+            padding: 0px;            
+        }
+        .nav-bar ul{
+            list-style: none;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            padding: 1vh;
+            background-color: black;
+            color: orange;
+        }
+
+        .nav-bar ul li{
+            margin: 2vh 2vw;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .nav-bar ul li:hover{
+            background: radial-gradient(yellow, orange);
+            color: black;
+            border-radius: 10px;
+        }
+
+        .main .slider{
+            margin: .2vh;
+            padding: .1vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: black;
+            /* height: 50vh; */
+            border: 2px solid black;
+            border-radius: 10px;
+            justify-content: center;
+        }
+
+        .slider-items{
+            box-sizing: border-box;
+            padding: .1vh;
+            margin: 0;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .slider-items img{
+            margin: 1vh;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        .main h2{
+            margin: 2vh;
+            padding: 2vh;
+            border: 2px solid rgb(155, 148, 148);
+            border-radius: 10px;
+            width: fit-content;
+            cursor: pointer;
+        }
+        .main h2:hover{
+            background-color: black;
+            color: rgb(214, 114, 19);
+        }
+
+        .main .featured-menu{
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .main .featured-menu .featured-item{
+            box-sizing: border-box;
+            margin: 1vh;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: orange;
+            display: flex;
+            font-size: 10px;
+            align-items: center;
+            justify-content: center;
+            padding: 1vh;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-banner">
+            <!-- <img src="images/logo.png" alt="Fresh Baked Cafe" class="logo" width="40px"> -->
+            <img src="https://source.unsplash.com/40x40/?logo" alt="Fresh Baked Cafe" class="logo" width="40px">
+            <h2 class="name">Fresh Baked Cafe</h2>
+            <!-- <img src="images/cart.png" alt="Cart" class="cart" width="40px"> -->
+            <img src="https://source.unsplash.com/40x40/?cart" alt="Cart" class="cart" width="40px">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <nav class="nav-bar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Contact</li>
+                    <li>Order Now</li>
+                </ul>
+            </nav>
+            <div class="slider">
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?food" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?pizza" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?pasta" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?juice" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?burger" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?sandwich" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?food" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?pizza" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?pasta" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?juice" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?burger" alt="">
+                </div>
+                <div class="slider-items">
+                    <img src="https://source.unsplash.com/250x250/?sandwich" alt="">
+                </div>
+            </div>
+            <hr>
+            <h2>Featured Item</h2>
+            <div class="featured-menu">
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?dessert" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?macaroni" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?coffee" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?tea" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?cake" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?donut" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?dessert" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?macaroni" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?coffee" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?tea" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?cake" alt="">
+                </div>
+                <div class="featured-item">
+                    <img src="https://source.unsplash.com/250x250/?donut" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2 class="footer-info">All Copyrights &copy; Reserved by Fresh Baked Cafe </h2>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

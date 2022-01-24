@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header div{
+    display: flex;
+    background-color: orange;
+    color: black;
+    font-family: 'Merienda', cursive;
+    padding: 2vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .main{
+    width: 100%;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    background-color: black;
+    color: orange;
+}
+
+.nav-bar ul li{
+    margin: 2vh 2vw;
+    cursor: pointer;
+}
+
+.main .slider{
+    margin: .2vh;
+    padding: .1vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: orange;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* justify-content: space-evenly; */
+}
+
+.slider-items{
+    box-sizing: border-box;
+    padding: .1vh;
+    margin: 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.slider-items img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.main h2{
+    margin: 2vh;
+    padding: 2vh;
+    border: 2px solid rgb(155, 148, 148);
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.main h2:hover{
+    background-color: black;
+    color: rgb(214, 114, 19);
+}
+
+.main .featured-menu{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main .featured-menu .featured-item{
+    box-sizing: border-box;
+    margin: 1vh;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: orange;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+}
